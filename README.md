@@ -1,4 +1,5 @@
 dependencies:
   - `npm install`
-  - `start: react-scripts start`
-  - `build: react-scripts build`
+  - `yarn install`
+  - `yarn run start`
+  - `yarn run build`
