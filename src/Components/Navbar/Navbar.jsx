@@ -45,7 +45,7 @@ function Navbar() {
                     )}
 
                     <Link to="/" style={{ textDecoration: 'none' }}>
-                        <h3 className="text_none">Dashboard</h3>
+                        <h3 className="text_none">Easy Food</h3>
                     </Link>
                 </div>
                 <div className="search">
@@ -71,9 +71,6 @@ function Navbar() {
                                 onClick={() => dispatch({ type: 'TOGGLE' })}
                             />
                         )}
-                    </div>
-                    <div className="item">
-                        <FullscreenExitIcon className="item_icon" />
                     </div>
 
                     <div className="item">

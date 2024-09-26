@@ -11,11 +11,11 @@ import './progressBar.scss';
 
 function ProgressBar() {
     const data01 = [
-        { name: 'Users', value: 23 },
-        { name: 'Hotels', value: 30 },
-        { name: 'Rooms', value: 15 },
-        { name: 'Blogs', value: 19 },
-        { name: 'Balance', value: 20 },
+        { name: 'Users', value: 2333 },
+        { name: 'Hotels', value: 2500 },
+        { name: 'Rooms', value: 1005 },
+        { name: 'Blogs', value: 1095 },
+        { name: 'Balance', value: 2000 },
     ];
 
     return (
@@ -46,22 +46,22 @@ function ProgressBar() {
                 <p>Total vendas do dia.</p>
                 <p className="price">
                     <AttachMoneyOutlinedIcon style={{ fontSize: '32px' }} />
-                    324
+                    8.933
                 </p>
             </div>
 
             <div className="bottom">
-                <p>Previous transection processing. Last payments may not be included.</p>
+                <p>Processamento de transação anterior. Os últimos pagamentos podem não estar incluídos.</p>
 
                 <div className="botom_nested">
                     <div className="nested_nested">
-                        <p>Last Week</p>
+                        <p>Semana anterior</p>
                         <p className="pricee">
                             <KeyboardArrowUpOutlinedIcon /> $11.9k
                         </p>
                     </div>
                     <div className="nested_nested">
-                        <p>Last Month</p>
+                        <p>Mês anterior</p>
                         <p className="pricee decrese">
                             <KeyboardArrowUpOutlinedIcon /> $12.4k
                         </p>
