@@ -64,9 +64,11 @@ function Sidebar() {
                     <li>
                         <SettingsRoundedIcon className="icon" /> Setting
                     </li>
-                    <li>
-                        <LogoutIcon className="icon" /> Log Out
-                    </li>
+                    <Link to="/login" style={{ textDecoration: 'none' }}>
+                        <li>
+                            <LogoutIcon className="icon" /> Log Out
+                        </li>
+                    </Link>
                 </ul>
             </div>
         </div>
