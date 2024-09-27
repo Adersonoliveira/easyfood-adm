@@ -1,5 +1,3 @@
-/* eslint-disable jsx-a11y/label-has-associated-control */
-/* eslint-disable react/jsx-props-no-spreading */
 import DriveFolderUploadIcon from '@mui/icons-material/DriveFolderUpload';
 import React, { useState } from 'react';
 import Input from '../../Components/Input/Input';
