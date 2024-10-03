@@ -9,51 +9,51 @@ a data point and has two properties: `name` and `total`. */
 // Place your own data here
 const data = [
     {
-        name: 'January',
+        name: 'Janeiro',
         total: 700,
     },
     {
-        name: 'February',
+        name: 'Fevereiro',
         total: 1250,
     },
     {
-        name: 'March',
+        name: 'Março',
         total: 1410,
     },
     {
-        name: 'April',
+        name: 'Abril',
         total: 1100,
     },
     {
-        name: 'May',
+        name: 'Maio',
         total: 700,
     },
     {
-        name: 'June',
+        name: 'Junho',
         total: 1000,
     },
     {
-        name: 'July',
+        name: 'Julho',
         total: 1250,
     },
     {
-        name: 'August',
+        name: 'Agosto',
         total: 1050,
     },
     {
-        name: 'September',
+        name: 'Setembro',
         total: 800,
     },
     {
-        name: 'October',
+        name: 'Outubro',
         total: 960,
     },
     {
-        name: 'November',
+        name: 'Novembro',
         total: 1150,
     },
     {
-        name: 'December',
+        name: 'Dezembro',
         total: 1250,
     },
 ];
@@ -63,7 +63,7 @@ function Chart({ height, title }) {
         <div className="chart_sec">
             <div>
                 <div className="title">
-                    <p>{title} (Last 1 year)</p>
+                    <p>{title} (Ano Atual)</p>
                 </div>
 
                 <div style={{ width: '100%', height: 300 }}>

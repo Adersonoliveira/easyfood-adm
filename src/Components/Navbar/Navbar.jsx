@@ -103,13 +103,13 @@ function Navbar() {
                                     <p className="spann">lists</p>
                                     <Link to="/users" style={{ textDecoration: 'none' }}>
                                         <li>
-                                            <PersonIcon className="icon" /> Users
+                                            <PersonIcon className="icon" /> Usuarios
                                         </li>
                                     </Link>
 
                                     <Link to="/products" style={{ textDecoration: 'none' }}>
                                         <li>
-                                            <TableChartIcon className="icon" /> Products
+                                            <TableChartIcon className="icon" /> Produtos
                                         </li>
                                     </Link>
                                     <Link to="/orders" style={{ textDecoration: 'none' }}>
@@ -118,7 +118,7 @@ function Navbar() {
                                         </li>
                                     </Link>
                                     <li>
-                                        <CreditCardIcon className="icon" /> Balance
+                                        <CreditCardIcon className="icon" /> Balanço
                                     </li>
                                     <li>
                                         <BarChartIcon className="icon" /> Status
@@ -126,7 +126,7 @@ function Navbar() {
 
                                     <p className="spann">Seetings</p>
                                     <li>
-                                        <AccountCircleIcon className="icon" /> Profile
+                                        <AccountCircleIcon className="icon" /> Perfil
                                     </li>
                                     <li>
                                         <SettingsRoundedIcon className="icon" /> Setting

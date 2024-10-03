@@ -25,7 +25,6 @@ function TableList() {
             _id: 23423343,
             product: 'Energetico Monster',
             image: energetico,
-            customer: 'Devid John',
             date: '3 October, 2024',
             ammount: 45,
             method: 'Online Payment',
@@ -35,7 +34,6 @@ function TableList() {
             _id: 235343343,
             product: 'Pastel de Nata',
             image: pastelNata,
-            customer: 'Julia Ani',
             date: '23 April, 2024',
             ammount: 55,
             method: 'Cash On Delivery',
@@ -45,7 +43,6 @@ function TableList() {
             _id: 234239873,
             product: 'Sandwich Integral',
             image: sanduiche,
-            customer: 'John Smith',
             date: '10 October, 2024',
             ammount: 25,
             method: 'Online Payment',
@@ -55,7 +52,6 @@ function TableList() {
             _id: 23423143,
             product: 'Pizza de Calabresa',
             image: pizza,
-            customer: 'Devid John',
             date: '3 March, 2024',
             ammount: 40,
             method: 'Cash On Delivery',
@@ -65,7 +61,6 @@ function TableList() {
             _id: 123423343,
             product: 'cafe ao leite',
             image: cafe,
-            customer: 'Humlar',
             date: '20 November, 2024',
             ammount: 45,
             method: 'Online Payment',
@@ -80,7 +75,6 @@ function TableList() {
                     <TableRow>
                         <TableCell className="table_cell">Tracking Id</TableCell>
                         <TableCell className="table_cell">Product</TableCell>
-                        <TableCell className="table_cell">Customer</TableCell>
                         <TableCell className="table_cell">Ammount</TableCell>
                         <TableCell className="table_cell">Date</TableCell>
                         <TableCell className="table_cell">Payment Status</TableCell>
@@ -97,7 +91,6 @@ function TableList() {
                                 </div>
                             </TableCell>
                             <TableCell className="table_cell">{row.product}</TableCell>
-                            <TableCell className="table_cell">{row.customer}</TableCell>
                             <TableCell className="table_cell">{row.ammount}</TableCell>
                             <TableCell className="table_cell">{row.date}</TableCell>
                             <TableCell className="table_cell">{row.method}</TableCell>

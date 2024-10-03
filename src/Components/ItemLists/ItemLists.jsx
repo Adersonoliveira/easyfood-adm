@@ -14,7 +14,7 @@ function ItemLists({ type }) {
     switch (type) {
         case 'user':
             data = {
-                title: 'USERS',
+                title: 'USUARIOS',
                 isMoney: false,
                 count: 232,
                 icon: (
@@ -51,7 +51,7 @@ function ItemLists({ type }) {
             break;
         case 'products':
             data = {
-                title: 'PRODUCTS',
+                title: 'PRODUTOS',
                 isMoney: true,
                 count: 107,
                 icon: (
@@ -69,7 +69,7 @@ function ItemLists({ type }) {
             break;
         case 'balance':
             data = {
-                title: 'BALANCE',
+                title: 'BALANÇO',
                 count: 444,
                 isMoney: true,
                 icon: (
