@@ -10,7 +10,10 @@ const Login = () => {
     return (
         <div className="login-main">
             <div className="login-left">
-                {/* Aqui pode adicionar outra imagem ou conteúdo se necessário */}
+                <img
+                    src="https://media.istockphoto.com/id/929760662/pt/foto/wood-table-top-on-blurred-of-cafe-with-light-gold-in-dark-nigh-background-for-montage-product.jpg?s=612x612&w=0&k=20&c=_prUZ9LUSFdj-So3p9QnztVnChN2fhHBCSItK-sa_Jg="
+                    alt="Banner de fundo do restaurante"
+                />
             </div>
             <div className="login-right">
                 <div className="login-right-container">
