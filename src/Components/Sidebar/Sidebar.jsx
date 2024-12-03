@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/no-static-element-interactions */
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import BarChartIcon from '@mui/icons-material/BarChart';
 import CreditCardIcon from '@mui/icons-material/CreditCard';
@@ -13,7 +12,6 @@ import { ColorContext } from '../../ColorContext/darkContext';
 import './Sidebar.scss';
 
 function Sidebar() {
-    // color state management using react context
     const { darkMode, dispatch } = useContext(ColorContext);
 
     return (

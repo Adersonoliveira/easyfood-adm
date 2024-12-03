@@ -18,15 +18,13 @@ import React, { useContext, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { ColorContext } from '../../ColorContext/darkContext';
 
-// import sass file
+
 import './navbar.scss';
 
-// import images
 import admin from '../../Images/admin_pic.jpg';
 
 function Navbar() {
     const [toggle, setToggle] = useState(false);
-    // color state management using react context
     const { darkMode, dispatch } = useContext(ColorContext);
 
     const handleToggle = () => {

@@ -6,7 +6,6 @@ import React from 'react';
 import 'react-circular-progressbar/dist/styles.css';
 import { Pie, PieChart, ResponsiveContainer } from 'recharts';
 
-// import css filr
 import './progressBar.scss';
 
 function ProgressBar() {

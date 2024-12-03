@@ -1,6 +1,4 @@
-/* eslint-disable no-constant-condition */
-/* eslint-disable no-nested-ternary */
-/* eslint-disable jsx-a11y/img-redundant-alt */
+
 import { DataGrid } from '@mui/x-data-grid';
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';

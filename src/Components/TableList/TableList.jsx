@@ -1,8 +1,6 @@
-/* eslint-disable no-underscore-dangle */
 import React from 'react';
 import './tableList.scss';
 
-// mui table
 import Paper from '@mui/material/Paper';
 import Table from '@mui/material/Table';
 import TableBody from '@mui/material/TableBody';
@@ -11,7 +9,6 @@ import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 
-// import dummy image
 import pastelNata from '../../Images/pastelNata.jpg';
 import sanduiche from '../../Images/sanduiche.jpg';
 import pizza from '../../Images/pizza.png';
@@ -19,7 +16,6 @@ import cafe from '../../Images/cafe.png';
 import energetico from '../../Images/energetico.jpg';
 
 function TableList() {
-    // Replace this data with your own
     const data = [
         {
             _id: 23423343,

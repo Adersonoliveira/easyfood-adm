@@ -7,7 +7,6 @@ import userPic from '../../Images/man2.jpg';
 import './Detail.scss';
 
 function Detail() {
-    // const { userId, productId } = useParams();
     return (
         <div className="details">
             <div className="home_sidebar">

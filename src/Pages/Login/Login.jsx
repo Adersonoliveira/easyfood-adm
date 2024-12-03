@@ -18,7 +18,6 @@ const Login = () => {
             <div className="login-right">
                 <div className="login-right-container">
                     <div className="login-logo">
-                        {/* Substitua este espaço por outra solução ou componente se necessário */}
                     </div>
                     <div className="login-center">
                         <h2>Bem vindo!</h2>
@@ -50,7 +49,6 @@ const Login = () => {
                                     <button type="button" className="login-btn">Log In</button>
                                 </Link>
                                 <button type="button">
-                                    {/* adicionar um texto para o botão de login com o Google */}
                                     Log In with Google
                                 </button>
                             </div>

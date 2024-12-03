@@ -1,5 +1,3 @@
-/* eslint-disable react/no-unknown-property */
-/* eslint-disable react/jsx-props-no-spreading */
 import React, { useState } from 'react';
 import './input.scss';
 

@@ -1,4 +1,3 @@
-/* eslint-disable react/no-array-index-key */
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 import RemoveRedEyeIcon from '@mui/icons-material/RemoveRedEye';
 import React from 'react';

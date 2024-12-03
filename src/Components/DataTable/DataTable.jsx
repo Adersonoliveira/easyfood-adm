@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/img-redundant-alt */
 import { DataGrid } from '@mui/x-data-grid';
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
@@ -10,7 +9,7 @@ import woman1 from '../../Images/woman1.jpg';
 import woman2 from '../../Images/woman2.jpg';
 import './datatable.scss';
 
-// Replace this data with your own
+
 const userData = [
     {
         id: '630343eb94c2812e4cd7e45d',

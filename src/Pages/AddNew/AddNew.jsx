@@ -9,7 +9,6 @@ import './New.scss';
 function AddNew({ inputs, titlee, type }) {
     let dynamicInpVal;
 
-    // dynamically change the state values
     switch (type) {
         case 'USER':
             dynamicInpVal = {
@@ -45,7 +44,6 @@ function AddNew({ inputs, titlee, type }) {
 
     const image = false;
 
-    // Dynamicaly change the data for different pages
 
     const handleChange = (e) => {
         setUserInp({ ...userInp, [e.target.name]: e.target.value });
